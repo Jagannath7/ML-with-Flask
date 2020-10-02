@@ -10,5 +10,10 @@
           {% for f in friends %}
             <h2> {{f}} </h2>
           {% endfor %}
+
+        <form method="POST" action="/submit">
+            <input type="text" name="username" placeholder="Enter your name">
+            <input type="submit">
+        </form>
     </body>
 </html>
